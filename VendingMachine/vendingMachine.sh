@@ -17,7 +17,7 @@ greb=`printf "\033[1;32m"`
 
 ada=$(printf "\U20B3")
 preview='--testnet-magic 2'
-BlockFrostID=previewl6OAJyAGhoXnLqC7gqqRRrQ9kpfg1LOK
+BlockFrostID=
 
 jsonDir=.jsonFiles
 txsDir=.txsDir
