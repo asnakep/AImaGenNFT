@@ -2,8 +2,6 @@ with (import <nixpkgs> {});
 stdenv.mkDerivation {
   name = "pythonVirtualEnv";
   buildInputs = [
-    # System requirements.
-    readline
 
     # Python requirements (get python Virtual Env for pip install).
     # Needed for Stable Diffusion AI Image generator
